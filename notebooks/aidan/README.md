@@ -26,7 +26,23 @@ We are going to meet with them for an on-site demonstration of the current field
 We went down to the SoyFACE fields in the late morning and got to see a demonstration of Both the currently used CID scanner and the older BART scanner
 from the 80s. See attached images and video for reference.
 
+![alt text](https://github.com/aidankv2/ECE-445-Notebooks/blob/main/Images-and-videos/IMG_2007.HEIC "Logo Title Text 1")
 
+https://github.com/aidankv2/ECE-445-Notebooks/blob/main/Images-and-videos/IMG_2008.HEIC
+
+https://github.com/aidankv2/ECE-445-Notebooks/blob/main/Images-and-videos/IMG_2009.HEIC
+
+https://github.com/aidankv2/ECE-445-Notebooks/blob/main/Images-and-videos/IMG_2011.HEIC
+
+https://github.com/aidankv2/ECE-445-Notebooks/blob/main/Images-and-videos/IMG_2012.HEIC
+
+https://github.com/aidankv2/ECE-445-Notebooks/blob/main/Images-and-videos/Photo%202025-09-19%2003.21.43%20PM.heic
+
+https://github.com/aidankv2/ECE-445-Notebooks/blob/main/Images-and-videos/9-19%20Field%20Pics%20and%20Videos/20jun2025%20camera%201v7%20ilje%20kk%201-5_T86_L3_20.06.25_174843_1_Untitled.png
+
+https://github.com/aidankv2/ECE-445-Notebooks/blob/main/Images-and-videos/9-19%20Field%20Pics%20and%20Videos/20jun2025%20camera%201v7%20ilje%20kk%201-5_T86_L4_20.06.25_174910_1_Untitled.png
+
+https://github.com/aidankv2/ECE-445-Notebooks/blob/main/Images-and-videos/9-19%20Field%20Pics%20and%20Videos/20jun2025%20camera%201v7%20ilje%20kk%201-5_T87_L1_20.06.25_174342_1_Untitled.png
 
 Biggest things taken from this meeting are taking the best of both scanners and combining them in a much more common sense implementation. A gear rack use like the
 BART combined with much better scanning and encasing of the CID. Both have poor cable output, and a single attachment of a USB to a computer as a data output and
