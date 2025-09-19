@@ -11,3 +11,35 @@ but our current design would solve a lot of other issues. Also, if we can make a
 DESIGN NOTES: PCB will most likely have to be thin and vertical, on-board battery is most likely the less preffered method, since root images will want to be observed immediately after recording, so a usb interface to interect with a laptop is ideal.
               How the camera will be lowered will also be very important, as manual rappelling is significantly less complex but will have to be accounted for elsewhere, as the moment when images should be captured is tied to the location of the camera and speed it descends.
               We have discussed multiple ways to do this but ultimately there is not too much of a consensus yet. An encoder that tracks the location of the wheels may be preffered but implementation is questionable.
+
+## **9/18/2025 THURSDAY**
+
+We met again today with John and Jeremy (the pitchers), as well as Sam who is heavily involved in the scanning and research of the plants. We discussed similar things 
+to our first meeting but went more in depth in the expected outcome of the project.
+
+The biggest deliverables is a reduced time in taking the images (CID scanners take 4 minutes per picture), and more reliability and ease of use.
+
+We are going to meet with them for an on-site demonstration of the current field equipment tomorrow.
+
+## **9/19/2025 FRIDAY**
+
+We went down to the SoyFACE fields in the late morning and got to see a demonstration of Both the currently used CID scanner and the older BART scanner
+from the 80s. See attached images and video for reference.
+
+
+
+Biggest things taken from this meeting are taking the best of both scanners and combining them in a much more common sense implementation. A gear rack use like the
+BART combined with much better scanning and encasing of the CID. Both have poor cable output, and a single attachment of a USB to a computer as a data output and
+Power supply input is pretty much a requirement.
+
+Afterwards we met with Greg in the ECEB Machine shop and were able to iron out and focus on design details. We were able to discern that this is going to be a
+very involved and difficult to pull off project, but after lots of discussion our current best design is as follow:
+
+-The camera will still be pointed at a conical reflective surface, whether it be polished metal, glass, mirror, or window tints. A ring of led's will be supported above the camera illuminating the surroundings, and all this will be encapsulated in a transparent tubing. The camera will have a telecentric lens pointed down a the reflective cone, which should then be able to extrapolate a ring of useful imagery that can be further proccessed and stitched together with other pictures it takes into a rectangular one.
+-The tube will then also be capped, and on said caps will be wheels with flexible o-rings in order to fit snugly within the tube and to discourage wobble and       uneven placement.
+-The output of this will be cords from the top of the tube, following up a gear shaft at the top, of which the cords will be positioned and flow out the top of the 6-foot gear shaft containment to the main pcb located at the cap affixment. These cords will contain power to the camera and LED's as well as control signals for when to act. Outputting through this cord will be the camera data sent back to the microcontroller. 
+-The main pcb will have the connections to the LEDs and camera, the microcontroller, a USB connection to be supplied power and to output data, and connections to a motor and encoder for controlling and measuring movement of the system.
+-The motor will move the gear along the gear shaft, pushing the camera down/up and with an encoder tracking its movement, sending signals to the microcontroller to calculate control signals for the rest of the system (when to take pictures, motor speed, etc.).
+
+These are the overall design ideas we have so far. A meeting will be setup between John, Jeremy, Sam, Our group, and Greg for further discussion.
+
