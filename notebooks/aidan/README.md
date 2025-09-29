@@ -80,3 +80,14 @@ I had planned an earlier meeting with everbody involved so far, TA, Pitchers, an
 Big takeaway is we need to get parts ordered and measurments solidified so we can get necessary machine shop additions and a prototype going for solidifying designs
 
 Afterwards we met with the TA for a proposal rerun, where after discussed we need to do as said above, and I will focus on lumen requirements for our project so we can get a solid LED setup, and also making sure our power from the battery and connections overall is more set in stone. 
+
+## **9/28/2025 SUNDAY**
+
+I am currently doing lighting calculations/research on the desired lumens for inside the tube. The calculations are to optimize shutter speed (by giving the camera enough light to rapidly take pictures), but at the same time not creating too much noise from the lighting and/or preventing uneven shadings.
+
+To get a rough feel for the lighting I am first looking at the CI-602 Manual, which is a different root imaging scanner that has a lighting system. I've downloaded the manual from this site:
+https://ictinternational.com/product/ci-600-and-ci-602-in-situ-root-imagers/
+^(DELAYED, DOCX FILE IS 425 MB AND I DON'T YET KNOW HOW TO OPEN, NEED TO DOWNLOAD MICROSOFT WORD)
+
+The OV5640 does not have info on lighting requirements, but it does state that it has built in anti-smearing and other image distortion preventing things.
+
