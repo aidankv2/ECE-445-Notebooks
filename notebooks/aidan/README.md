@@ -87,10 +87,15 @@ I am currently doing lighting calculations/research on the desired lumens for in
 
 To get a rough feel for the lighting I am first looking at the CI-602 Manual, which is a different root imaging scanner that has a lighting system. I've downloaded the manual from this site:
 https://ictinternational.com/product/ci-600-and-ci-602-in-situ-root-imagers/
+
 ^(DELAYED, DOCX FILE IS 425 MB AND I DON'T YET KNOW HOW TO OPEN, NEED TO DOWNLOAD MICROSOFT WORD)
+^(microsoft word can't do it either)
 
 The OV5640 does not have info on lighting requirements, but it does state that it has built in anti-smearing and other image distortion preventing things.
 Also very useful to note and important to bring up to TA's, is that the OV5640 has a built in microcontroller that can store an image, which would alleviate some of our issues if allowed.
 
 ![alt text](https://github.com/aidankv2/ECE-445-Notebooks/blob/main/Images-and-videos/diagrams-and-etc/OV5640-text.png "text discussed")
 
+it allows 256 OTP memory in total
+
+It is also important to note that the OV5640 has built in shutter modes, however for our purposes we could ignore those and just keep the LED's on since there is no reason that we need to line up for flashes
