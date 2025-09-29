@@ -63,3 +63,20 @@ very involved and difficult to pull off project, but after lots of discussion ou
 
 These are the overall design ideas we have so far. A meeting will be setup between John, Jeremy, Sam, Our group, and Greg for further discussion.
 
+## **9/23/2025 TEUSDAY**
+
+We did the proposal, work was done on it beforehand but was pretty unsatisfactory and mainly in theory. I started to work after the fact on more grounded/quantifiable changes, mainly on power and simplifying the block diagram.
+
+![alt text](https://github.com/aidankv2/ECE-445-Notebooks/blob/main/Images-and-videos/diagrams-and-etc/blockdiagram923.png "block diagram")
+
+Connection to the motor from control will still need to be added; most likely H-Bridge control of it.
+specific parts for the regulators: LM2675 Step-Down Voltage Regulator and LD1117-3.3 Linear Voltage Regulator.
+
+Battery currently idea is 3S Lipo Battery for 11.2V supply, but research for a more sofisticated battery is probably smart.
+
+## **9/25/2025 THURSDAY**
+
+I had planned an earlier meeting with everbody involved so far, TA, Pitchers, and Gregg (machine shop). We met at 8:30 and discussed needs for the project.
+Big takeaway is we need to get parts ordered and measurments solidified so we can get necessary machine shop additions and a prototype going for solidifying designs
+
+Afterwards we met with the TA for a proposal rerun, where after discussed we need to do as said above, and I will focus on lumen requirements for our project so we can get a solid LED setup, and also making sure our power from the battery and connections overall is more set in stone. 
