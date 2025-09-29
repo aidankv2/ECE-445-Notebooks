@@ -90,4 +90,6 @@ https://ictinternational.com/product/ci-600-and-ci-602-in-situ-root-imagers/
 ^(DELAYED, DOCX FILE IS 425 MB AND I DON'T YET KNOW HOW TO OPEN, NEED TO DOWNLOAD MICROSOFT WORD)
 
 The OV5640 does not have info on lighting requirements, but it does state that it has built in anti-smearing and other image distortion preventing things.
+Also very useful to note and important to bring up to TA's, is that the OV5640 has a built in microcontroller that can store an image, which would alleviate some of our issues if allowed.
+![alt text](https://github.com/aidankv2/ECE-445-Notebooks/blob/main/Images-and-videos/diagrams-and-etc/OV5640-text.png "block diagram")
 
