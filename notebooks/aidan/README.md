@@ -98,4 +98,6 @@ Also very useful to note and important to bring up to TA's, is that the OV5640 h
 
 it allows 256 OTP memory in total
 
-It is also important to note that the OV5640 has built in shutter modes, however for our purposes we could ignore those and just keep the LED's on since there is no reason that we need to line up for flashes
+It is also important to note that the OV5640 has built in shutter modes, however for our purposes we could ignore those and just keep the LED's on since there is no reason that we need to line up for flashes. Also, the OV4560 is more built for videos not pictures, but should be able to function still in one-pic taking by just enabling the stream, waiting for the VSYNC to communicate when the picture is done, and then disabling the stream. This works since the VSYNC defines the boundaries/is defined by the boundaries of the frame of the data, so one window of data for a frame is transmitted, then we cut off.
+
+generally, it seems there is not any specific lighting requirement told by the OV5640, so it is hard to get a requirement. Online research seems to fair that it is very environment and camera specific, but a general estimation seems to be 50 lumens would be good. This could be achieved through a single white LED, so spreading at least six of them to disperse light evenly in all the directions should be good.
