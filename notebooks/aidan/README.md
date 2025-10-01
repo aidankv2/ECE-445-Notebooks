@@ -72,7 +72,7 @@ We did the proposal, work was done on it beforehand but was pretty unsatisfactor
 Connection to the motor from control will still need to be added; most likely H-Bridge control of it.
 specific parts for the regulators: LM2675 Step-Down Voltage Regulator and LD1117-3.3 Linear Voltage Regulator.
 
-Battery currently idea is 3S Lipo Battery for 11.2V supply, but research for a more sofisticated battery is probably smart.
+Battery currently idea is 3S Lipo Battery for 11.2V supply, but research for a more sophisticated battery is probably smart.
 
 ## **9/25/2025 THURSDAY**
 
