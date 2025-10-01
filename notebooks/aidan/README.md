@@ -122,5 +122,29 @@ for the 12V to 5V step down we will need, I have the LM2675-5.0 StepDown Voltage
 
 FOR MYSELF (this all mostly is): INT0 is the INTERRUPT pin for any encoder since only D2 and D3 can be interrupts
 
+### **PART LISTS:**
 
+1uF Capacitor: 0805_2012Metric from Soldering assignment
+
+100uF Capacitor: 1206_3216Metric 
+  https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL31A107MQHNNWE/10479833
+
+10nF Capacitor: 0402_1005Metric
+  https://www.digikey.com/en/products/detail/murata-electronics/GRM155R71C103KA01D/587215
+
+22p Capacitors (2): 0603_1608Metric
+  https://www.digikey.com/en/products/detail/kemet/C0603C220J5GACTU/411055
+
+68uF Capacitor: 1206_3216Metric
+  https://www.digikey.com/en/products/detail/tdk-corporation/C3216X5R0J686M160AB/3951907
+
+47uH Inductor: 0603_1608Metric
+  https://www.digikey.com/en/products/detail/taiyo-yuden/CBMF1608T470K/1007996
+
+10k Resistor: 0805_2012Metric from Soldering Assignment
+
+1k Resistor: 0805_2012Metric from Soldering Assignment
+
+16MHz Oscillating Crystal: 0.197" L x 0.126" W (5.00mm x 3.20mm)
+  https://www.digikey.com/en/products/detail/abracon-llc/ABM3-16-000MHZ-D2Y-T/2344578
 
