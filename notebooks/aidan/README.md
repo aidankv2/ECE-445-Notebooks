@@ -101,3 +101,13 @@ it allows 256 OTP memory in total
 It is also important to note that the OV5640 has built in shutter modes, however for our purposes we could ignore those and just keep the LED's on since there is no reason that we need to line up for flashes. Also, the OV4560 is more built for videos not pictures, but should be able to function still in one-pic taking by just enabling the stream, waiting for the VSYNC to communicate when the picture is done, and then disabling the stream. This works since the VSYNC defines the boundaries/is defined by the boundaries of the frame of the data, so one window of data for a frame is transmitted, then we cut off.
 
 generally, it seems there is not any specific lighting requirement told by the OV5640, so it is hard to get a requirement. Online research seems to fair that it is very environment and camera specific, but a general estimation seems to be 50 lumens would be good. This could be achieved through a single white LED, so spreading at least six of them to disperse light evenly in all the directions should be good.
+
+## **9/28/2025 TUESDAY**
+
+scrap the OV5640, we are now opting for a raspberry pie and a simpler camera to interface with it. This way, we can hopefully use USB connections and not need to rely on a lot of stuff we did not realize. Now, I will also need to supply power to the other portions, but it shouldnt be too complicated, considering we already have the step downs. 
+
+With the raspberry pi, all that will be needed to be done will have the camera interface with it via USB, where a few lines of code in the PI will activate given a control input from the Microcontroller. 
+
+https://www.digikey.com/en/products/detail/dfrobot/FIT0701/13166487 this is a sample camera i was looking at, however I am awaiting for approval of similar cameras from the TA, as such a camera is under devboard in digikey which is a grey area in use case.
+
+Elsewise, I am beginning a rough schematic on KiCad which I plan to bulk complete tomorrow before our meeting on thursday.
