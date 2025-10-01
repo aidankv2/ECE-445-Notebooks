@@ -111,3 +111,16 @@ With the raspberry pi, all that will be needed to be done will have the camera i
 https://www.digikey.com/en/products/detail/dfrobot/FIT0701/13166487 this is a sample camera i was looking at, however I am awaiting for approval of similar cameras from the TA, as such a camera is under devboard in digikey which is a grey area in use case.
 
 Elsewise, I am beginning a rough schematic on KiCad which I plan to bulk complete tomorrow before our meeting on thursday.
+
+## **9/28/2025 WEDNESDAY**
+
+I am finalizing certain parts right now, if not mainly to get at least a first CAD schematic and PCB down. Biggest issue I am facing is finding the right H-bridge, since I will probably have 5 V input for the logic gates, but will need 12-10 V transfer of the load voltage, with decent ampage of 2-4 A.
+
+best part fitting these I have found so far is the L298N Full-Bridge Motor Driver Dual https://cdn.sparkfun.com/assets/7/1/d/6/c/Full-Bridge_Motor_Driver_Dual_-_L298N.pdf
+
+for the 12V to 5V step down we will need, I have the LM2675-5.0 StepDown Voltage Regulator https://www.ti.com/lit/ds/symlink/lm2675.pdf?ts=1759287479536&ref_url=https%253A%252F%252Fwww.google.com%252F
+
+FOR MYSELF (this all mostly is): INT0 is the INTERRUPT pin for any encoder since only D2 and D3 can be interrupts
+
+
+
