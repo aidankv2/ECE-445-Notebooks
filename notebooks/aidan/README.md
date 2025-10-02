@@ -156,4 +156,4 @@ I have also just finished routing the PCB, I am kind of iffed by it, I am defini
 
 BIG QUESTION: CAN I ROUTE GROUNDS TOGETHER AS WELL AS HAVE THE ZONE?!?!? SEE CENTER OF MCU FOR REFERENCE
 
-![alt text](https://github.com/aidankv2/ECE-445-Notebooks/blob/main/Images-and-videos/diagrams-and-etc/pcbv1.png "First PCB routed")
+![alt text](https://github.com/aidankv2/ECE-445-Notebooks/blob/main/Images-and-videos/diagrams-and-etc/pcbver1.png "First PCB routed")
