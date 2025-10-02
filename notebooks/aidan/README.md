@@ -148,3 +148,12 @@ FOR MYSELF (this all mostly is): INT0 is the INTERRUPT pin for any encoder since
 16MHz Oscillating Crystal: 0.197" L x 0.126" W (5.00mm x 3.20mm)
   https://www.digikey.com/en/products/detail/abracon-llc/ABM3-16-000MHZ-D2Y-T/2344578
 
+I have now completed the first version of the schematic, with the modules like the step down voltage regulator administered with the required components around it (added the inductor capactiors etc.).
+
+![alt text](https://github.com/aidankv2/ECE-445-Notebooks/blob/main/Images-and-videos/diagrams-and-etc/schemv1.png "First Schematic")
+
+I have also just finished routing the PCB, I am kind of iffed by it, I am definitely not a pro at this and need to ask the TA about optimizing it. 
+
+BIG QUESTION: CAN I ROUTE GROUNDS TOGETHER AS WELL AS HAVE THE ZONE?!?!? SEE CENTER OF MCU FOR REFERENCE
+
+![alt text](https://github.com/aidankv2/ECE-445-Notebooks/blob/main/Images-and-videos/diagrams-and-etc/pcbv1.png "First PCB routed")
