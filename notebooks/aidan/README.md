@@ -112,7 +112,7 @@ https://www.digikey.com/en/products/detail/dfrobot/FIT0701/13166487 this is a sa
 
 Elsewise, I am beginning a rough schematic on KiCad which I plan to bulk complete tomorrow before our meeting on thursday.
 
-## **9/28/2025 WEDNESDAY**
+## **10/01/2025 WEDNESDAY**
 
 I am finalizing certain parts right now, if not mainly to get at least a first CAD schematic and PCB down. Biggest issue I am facing is finding the right H-bridge, since I will probably have 5 V input for the logic gates, but will need 12-10 V transfer of the load voltage, with decent ampage of 2-4 A.
 
@@ -157,3 +157,35 @@ I have also just finished routing the PCB, I am kind of iffed by it, I am defini
 BIG QUESTION: CAN I ROUTE GROUNDS TOGETHER AS WELL AS HAVE THE ZONE?!?!? SEE CENTER OF MCU FOR REFERENCE
 
 ![alt text](https://github.com/aidankv2/ECE-445-Notebooks/blob/main/Images-and-videos/diagrams-and-etc/pcbver1.png "First PCB routed")
+
+## **10/02/2025 THURSDAY**
+
+Our meeting today went well, I have a current camera for our raspberry pi camera subsystem for the breadboard demo, however we should get details of a lot of the specs and information of the camera down before the demo. 
+
+I am going to swap some parts on the PCB since if they are available in the ECEB supply shop that would be loads more convienient.
+
+### ** NEW PART LISTS:**
+
+1uF Capacitor: 0805_2012Metric from Soldering assignment
+
+100uF Capacitor: 1206_3216Metric 
+  https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL31A107MQHNNWE/10479833
+
+10nF Capacitor: 0402_1005Metric
+  https://www.digikey.com/en/products/detail/murata-electronics/GRM155R71C103KA01D/587215
+
+22p Capacitors (2): 75-561R10TCCQ20 
+
+68uF Capacitor: 1206_3216Metric
+  https://www.digikey.com/en/products/detail/tdk-corporation/C3216X5R0J686M160AB/3951907
+
+47uH Inductor: 0603_1608Metric maybe 70F475AI-RC ?
+  https://www.digikey.com/en/products/detail/taiyo-yuden/CBMF1608T470K/1007996
+
+10k Resistor: 0805_2012Metric from Soldering Assignment
+
+1k Resistor: 0805_2012Metric from Soldering Assignment
+
+16MHz Oscillating Crystal: 520-HCA1600-SX 
+
+FROM FURTHER LOOKING; i'll need to get a fair amount of these from Digikey, but will also check the free supply area. Both oscillating crystal would work, but id prefer one through-hole or with leads.
