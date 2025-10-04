@@ -188,4 +188,12 @@ I am going to swap some parts on the PCB since if they are available in the ECEB
 
 16MHz Oscillating Crystal: 520-HCA1600-SX 
 
+## **10/02/2025 FRIDAY **
+
+forgot to get USB cable for PI, sadly progress on that will now have to wait til' saturday.
+
+Mainly, all that was done today was going to the PCB review to make sure my PCB is all in order. And, luckily it seems to be according to the TA's, it passed the DRC in kiCad and the PCBway audit, so here is the final PCB for our first version design of it:
+
+![alt text](https://github.com/aidankv2/ECE-445-Notebooks/blob/main/Images-and-videos/diagrams-and-etc/pcbver1.png "PCB ver 1")
+
 FROM FURTHER LOOKING; i'll need to get a fair amount of these from Digikey, but will also check the free supply area. Both oscillating crystal would work, but id prefer one through-hole or with leads.
