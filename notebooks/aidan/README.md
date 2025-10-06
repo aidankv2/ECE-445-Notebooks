@@ -217,6 +217,10 @@ Here is a screenshot of the code from putty (i used nano in the terminal to crea
 
 [EXPLAIN AND CITE CODE HERE]
 
+https://www.instructables.com/Trigger-a-Webcam-with-a-button-and-Raspberry-Pi -> This was a similar case that I used for the general setup in the script
+
+https://raspberrypi-guide.github.io/electronics/using-usb-webcams -> This was used for fswebcam setups, kind of figured out the basics from here
+
 ![alt text](https://github.com/aidankv2/ECE-445-Notebooks/blob/main/Images-and-videos/diagrams-and-etc/GPIO.png "GPIO pins")
 
 I used this graphic to determine the correct GPIO pin to connect to, which is important because a lot of these pins serve other functions and the names are misleading.
