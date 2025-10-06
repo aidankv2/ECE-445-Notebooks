@@ -197,3 +197,26 @@ forgot to get USB cable for PI, sadly progress on that will now have to wait til
 Mainly, all that was done today was going to the PCB review to make sure my PCB is all in order. And, luckily it seems to be according to the TA's, it passed the DRC in kiCad and the PCBway audit, so here is the final PCB for our first version design of it:
 
 ![alt text](https://github.com/aidankv2/ECE-445-Notebooks/blob/main/Images-and-videos/diagrams-and-etc/pcb1.png "PCB ver 1")
+
+## **10/05/2025 SUNDAY **
+Okay, so the raspberry pi also needed a microSD card, and so I had to again wait till this sunday night till I could start. I began by onloading the OS onto the microSD via an adapter on my laptop, following the instructions in this tutorial (forum) for a headless installation (since i have no means to connect it to a microHDMI).
+
+https://forums.raspberrypi.com/viewtopic.php?t=359482
+
+afterwards, I plugged in the webcam and was able to test it out using the fswebcam command on putty, which was able to take pictures and store them on the microSD. This all took a while mainly because I was following online steps through forums, but it was simple.
+
+Main issue now arised, is the raspberry pi needs WiFi to work since i do not have the GPIO command yet working and I need to figure out how it can boot it without needing any putty commands. I will continue this work on monday.
+
+## **10/05/2025 SUNDAY **
+
+I have now made the python script for the taking of the pictures when GPIO pin 17 is high. It compiles/throws no syntax errors, but i need to first set up a peripheral connection of power to the GPIO pin in order to see if it actually functions.
+
+Here is a screenshot of the code from putty (i used nano in the terminal to create it, there is a "FINALLY: GPIO.Cleanup()" that is outside the screenshot)
+
+![alt text](https://github.com/aidankv2/ECE-445-Notebooks/blob/main/Images-and-videos/diagrams-and-etc/script1.png "python script")
+
+[EXPLAIN AND CITE CODE HERE]
+
+![alt text](https://github.com/aidankv2/ECE-445-Notebooks/blob/main/Images-and-videos/diagrams-and-etc/GPIO.png "GPIO pins")
+
+I used this graphic to determine the correct GPIO pin to connect to, which is important because a lot of these pins serve other functions and the names are misleading.
