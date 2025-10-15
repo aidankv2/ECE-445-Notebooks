@@ -229,6 +229,6 @@ I used this graphic to determine the correct GPIO pin to connect to, which is im
 
 Now, we have setup the camera for prototype for the breadboard demo which went well. Here are images to display it:
 
-![alt text](https://github.com/aidankv2/ECE-445-Notebooks/blob/main/Images-and-videos/diagrams-and-etc/camsetup.png "Camera Setup")
+![alt text](https://github.com/aidankv2/ECE-445-Notebooks/blob/main/Images-and-videos/diagrams-and-etc/camsetup.jpg "Camera Setup")
 
 ![alt text](https://github.com/aidankv2/ECE-445-Notebooks/blob/main/Images-and-videos/diagrams-and-etc/image14.jpg "sample image")
