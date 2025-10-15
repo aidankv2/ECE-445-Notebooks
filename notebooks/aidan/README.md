@@ -207,7 +207,7 @@ afterwards, I plugged in the webcam and was able to test it out using the fswebc
 
 Main issue now arised, is the raspberry pi needs WiFi to work since i do not have the GPIO command yet working and I need to figure out how it can boot it without needing any putty commands. I will continue this work on monday.
 
-## **10/05/2025 SUNDAY **
+## **10/06/2025 MONDAY **
 
 I have now made the python script for the taking of the pictures when GPIO pin 17 is high. It compiles/throws no syntax errors, but i need to first set up a peripheral connection of power to the GPIO pin in order to see if it actually functions.
 
@@ -224,3 +224,11 @@ https://raspberrypi-guide.github.io/electronics/using-usb-webcams -> This was us
 ![alt text](https://github.com/aidankv2/ECE-445-Notebooks/blob/main/Images-and-videos/diagrams-and-etc/GPIO.png "GPIO pins")
 
 I used this graphic to determine the correct GPIO pin to connect to, which is important because a lot of these pins serve other functions and the names are misleading.
+
+## **10/07/2025 TEUSDAY **
+
+Now, we have setup the camera for prototype for the breadboard demo which went well. Here are images to display it:
+
+![alt text](https://github.com/aidankv2/ECE-445-Notebooks/blob/main/Images-and-videos/diagrams-and-etc/camsetup.png "Camera Setup")
+
+![alt text](https://github.com/aidankv2/ECE-445-Notebooks/blob/main/Images-and-videos/diagrams-and-etc/image14.jpg "sample image")
