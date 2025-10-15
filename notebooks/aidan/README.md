@@ -232,3 +232,21 @@ Now, we have setup the camera for prototype for the breadboard demo which went w
 ![alt text](https://github.com/aidankv2/ECE-445-Notebooks/blob/main/Images-and-videos/diagrams-and-etc/camsetup.jpg "Camera Setup")
 
 ![alt text](https://github.com/aidankv2/ECE-445-Notebooks/blob/main/Images-and-videos/diagrams-and-etc/image14.jpg "sample image")
+
+## **10/09/2025 THURSDAY **
+
+From here, we are mainly waiting on parts. PCBs and what not, I have ordered the PCB components
+
+## **10/15/2025 WEDNESDAY **
+
+I have using some online code and resources compiled a python script for unwrapping the reflected image.
+
+Here is the script (put in some fancy online image thing to look nice):
+
+![alt text](https://github.com/aidankv2/ECE-445-Notebooks/blob/main/Images-and-videos/diagrams-and-etc/code.png "unwrapping script")
+
+And here is the output of the image taken from the breadboard demo; one has a cut of an inner circle one is uncut
+
+![alt text](https://github.com/aidankv2/ECE-445-Notebooks/blob/main/Images-and-videos/diagrams-and-etc/unwrappedCut.jpg "Unwrapped with Inner radius")
+
+![alt text](https://github.com/aidankv2/ECE-445-Notebooks/blob/main/Images-and-videos/diagrams-and-etc/unwrapped.jpg "Unwrapped")
