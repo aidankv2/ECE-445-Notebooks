@@ -250,3 +250,52 @@ And here is the output of the image taken from the breadboard demo; one has a cu
 ![alt text](https://github.com/aidankv2/ECE-445-Notebooks/blob/main/Images-and-videos/diagrams-and-etc/unwrappedCut.jpg "Unwrapped with Inner radius")
 
 ![alt text](https://github.com/aidankv2/ECE-445-Notebooks/blob/main/Images-and-videos/diagrams-and-etc/unwrapped.jpg "Unwrapped")
+
+## **10/17/2025 FRIDAY **
+
+Things are slowing down are mainly waiting on parts from machine shop and orders online, we setup our H-Bridge on a breadboard to begin testing to make sure it is working.
+
+There are a few things we forgot, mainly capacitors needed in connection to the power sources on it to stop voltage overlaod and diodes to do the same from inducted voltage from the motor.
+
+## **10/23/2025 THURSDAY **
+
+PCB finally came in, however there are immediately present issues with it. All almost mainly with the fact that I have designed some of these componenets WAY too small.
+
+we have an 0403 capacitor in the power portion of the PCB, which is way way too small to be hand soldered, at least thats what it looks like. I will go and redesign the PCB soon to fix that for sure.
+a few other capacitors are also small but i am more confident on tose. As well as i am not so confident in the soldering of the microcontroller, looks very difficult to hand solder.
+
+![alt text](https://github.com/aidankv2/ECE-445-Notebooks/blob/main/Images-and-videos/diagrams-and-etc/unwrapped.jpg "PCB hand comparison")
+
+As well, we now have our Motor, however it has a very very small pin connector that the department store does not have. So i have instead opted to solder all the stripped wires off of it onto rainbow jumper cables i bought from the supply center.
+
+![alt text](https://github.com/aidankv2/ECE-445-Notebooks/blob/main/Images-and-videos/diagrams-and-etc/unwrapped.jpg "Motor solder joints")
+
+## **10/24/2025 FRIDAY **
+
+Today we have hookedx the motor up to the H-Bridge for control before our breadboard demo #2. That is about all that we did today though, waiting on parts mainly, and we have time for the demo to finish a few more implementations.
+
+## **10/27/2025 MONDAY **
+
+Breadboard Demo 2, we setup a ruler and our first breadboard demo, as well as Nate made a spool thing to replace our movement system for now. The images are outputted and show portions of the ruler. 
+
+![alt text](https://github.com/aidankv2/ECE-445-Notebooks/blob/main/Images-and-videos/diagrams-and-etc/unwrapped.jpg "breadboard demo 2")
+
+## **10/29/2025 WEDNESDAY **
+
+Began soldering today, there are definitely portions that cannot be done due to the small size. Mainly the capacitors that are too small, i even dropped and lost one that was the size of a ridge of my fingerprint, but other than that was able to get some decent soldering done
+
+![alt text](https://github.com/aidankv2/ECE-445-Notebooks/blob/main/Images-and-videos/diagrams-and-etc/unwrapped.jpg "PCB progress")
+
+## **10/30/2025 WEDNESDAY and 10/31/2025 THURSDAY and 11/1/2025 FRIDAY**
+
+We started working on the lighting system, for now i have just started straight soldering some LEDs together to act as a ring to light up the reflection on the cone in the shuttle.
+
+![alt text](https://github.com/aidankv2/ECE-445-Notebooks/blob/main/Images-and-videos/diagrams-and-etc/unwrapped.jpg "LED ring")
+
+While i was doing this, Zach was pretty confident on learning Heat gun and solder paste for the microcontroller and looks like he did it well on the microcontroller. AS well as he directly soldered a capacitor onto the pad for the one i lost.
+
+![alt text](https://github.com/aidankv2/ECE-445-Notebooks/blob/main/Images-and-videos/diagrams-and-etc/unwrapped.jpg "PCB progress2")
+
+On friday we finished a very rugged demo of the lighting system and glare diffuser, made by Nate, for a little bit of a breadboard demo 3 for rishik.
+
+![alt text](https://github.com/aidankv2/ECE-445-Notebooks/blob/main/Images-and-videos/diagrams-and-etc/unwrapped.jpg "shuttle prototype")
