@@ -264,11 +264,11 @@ PCB finally came in, however there are immediately present issues with it. All a
 we have an 0403 capacitor in the power portion of the PCB, which is way way too small to be hand soldered, at least thats what it looks like. I will go and redesign the PCB soon to fix that for sure.
 a few other capacitors are also small but i am more confident on tose. As well as i am not so confident in the soldering of the microcontroller, looks very difficult to hand solder.
 
-![alt text](https://github.com/aidankv2/ECE-445-Notebooks/blob/main/Images-and-videos/diagrams-and-etc/unwrapped.jpg "PCB hand comparison")
+![alt text](https://github.com/aidankv2/ECE-445-Notebooks/blob/main/Images-and-videos/diagrams-and-etc/PCBhand.jpg "PCB hand comparison")
 
 As well, we now have our Motor, however it has a very very small pin connector that the department store does not have. So i have instead opted to solder all the stripped wires off of it onto rainbow jumper cables i bought from the supply center.
 
-![alt text](https://github.com/aidankv2/ECE-445-Notebooks/blob/main/Images-and-videos/diagrams-and-etc/unwrapped.jpg "Motor solder joints")
+![alt text](https://github.com/aidankv2/ECE-445-Notebooks/blob/main/Images-and-videos/diagrams-and-etc/Motorsolderjoints.jpg "Motor solder joints")
 
 ## **10/24/2025 FRIDAY **
 
@@ -278,39 +278,39 @@ Today we have hookedx the motor up to the H-Bridge for control before our breadb
 
 Breadboard Demo 2, we setup a ruler and our first breadboard demo, as well as Nate made a spool thing to replace our movement system for now. The images are outputted and show portions of the ruler. 
 
-![alt text](https://github.com/aidankv2/ECE-445-Notebooks/blob/main/Images-and-videos/diagrams-and-etc/unwrapped.jpg "breadboard demo 2")
+![alt text](https://github.com/aidankv2/ECE-445-Notebooks/blob/main/Images-and-videos/diagrams-and-etc/breadboarddemo2.jpg "breadboard demo 2")
 
 ## **10/29/2025 WEDNESDAY **
 
 Began soldering today, there are definitely portions that cannot be done due to the small size. Mainly the capacitors that are too small, i even dropped and lost one that was the size of a ridge of my fingerprint, but other than that was able to get some decent soldering done
 
-![alt text](https://github.com/aidankv2/ECE-445-Notebooks/blob/main/Images-and-videos/diagrams-and-etc/unwrapped.jpg "PCB progress")
+![alt text](https://github.com/aidankv2/ECE-445-Notebooks/blob/main/Images-and-videos/diagrams-and-etc/PCBprogress.jpg "PCB progress")
 
 ## **10/30/2025 WEDNESDAY and 10/31/2025 THURSDAY and 11/1/2025 FRIDAY**
 
 We started working on the lighting system, for now i have just started straight soldering some LEDs together to act as a ring to light up the reflection on the cone in the shuttle.
 
-![alt text](https://github.com/aidankv2/ECE-445-Notebooks/blob/main/Images-and-videos/diagrams-and-etc/unwrapped.jpg "LED ring")
+![alt text](https://github.com/aidankv2/ECE-445-Notebooks/blob/main/Images-and-videos/diagrams-and-etc/LEDring.jpg "LED ring")
 
 While i was doing this, Zach was pretty confident on learning Heat gun and solder paste for the microcontroller and looks like he did it well on the microcontroller. AS well as he directly soldered a capacitor onto the pad for the one i lost.
 
-![alt text](https://github.com/aidankv2/ECE-445-Notebooks/blob/main/Images-and-videos/diagrams-and-etc/unwrapped.jpg "PCB progress2")
+![alt text](https://github.com/aidankv2/ECE-445-Notebooks/blob/main/Images-and-videos/diagrams-and-etc/PCBprogress2.jpg "PCB progress2")
 
 On friday we finished a very rugged demo of the lighting system and glare diffuser, made by Nate, for a little bit of a breadboard demo 3 for rishik.
 
-![alt text](https://github.com/aidankv2/ECE-445-Notebooks/blob/main/Images-and-videos/diagrams-and-etc/unwrapped.jpg "shuttle prototype")
+![alt text](https://github.com/aidankv2/ECE-445-Notebooks/blob/main/Images-and-videos/diagrams-and-etc/shuttleproto.jpg "shuttle prototype")
 
 ## **11/6/2025 THURSDAY **
 
 Finished the PCB soldering, was able to finally burn the bootloader and run some very simple code to make sure it was functioning, from the PWM pins, and other control pins hooked up
 
-![alt text](https://github.com/aidankv2/ECE-445-Notebooks/blob/main/Images-and-videos/diagrams-and-etc/unwrapped.jpg "PCBwithOsc")
+![alt text](https://github.com/aidankv2/ECE-445-Notebooks/blob/main/Images-and-videos/diagrams-and-etc/PCBwithOsc.jpg "PCBwithOsc")
 
 ## **11/11/2025 TEUSDAY **
 
 Tried to solder a USB cord to an old camera of ours so that i did not screw up with the main camera for when we had to solder the USB cables together. It did not go well.
 
-![alt text](https://github.com/aidankv2/ECE-445-Notebooks/blob/main/Images-and-videos/diagrams-and-etc/unwrapped.jpg "usbfail")
+![alt text](https://github.com/aidankv2/ECE-445-Notebooks/blob/main/Images-and-videos/diagrams-and-etc/usbfail.jpg "usbfail")
 
 ## **11/12/2025 WEDNESDAY **
 
@@ -318,33 +318,33 @@ Tried to solder a USB cord to an old camera of ours so that i did not screw up w
 
 First, i soldered the main camera and our 20 foot long cable together. Does not connect fully, showed an image once, will probably need to resolder
 
-![alt text](https://github.com/aidankv2/ECE-445-Notebooks/blob/main/Images-and-videos/diagrams-and-etc/unwrapped.jpg "usbfail2")
+![alt text](https://github.com/aidankv2/ECE-445-Notebooks/blob/main/Images-and-videos/diagrams-and-etc/usbfail2.jpg "usbfail2")
 
 Second, i designed the FINAL version of the PCB. I made almost all of it through hole solder as to not mess up soldering anymore, and made all components larger.
 
-![alt text](https://github.com/aidankv2/ECE-445-Notebooks/blob/main/Images-and-videos/diagrams-and-etc/unwrapped.jpg "FINALPCB")
+![alt text](https://github.com/aidankv2/ECE-445-Notebooks/blob/main/Images-and-videos/diagrams-and-etc/FINALPCB.png "FINALPCB")
 
 ## **11/19/2025 WEDNESDAY **
 
 Not much was done all last week since we were waiting mainly on machine shop. Finally, we obtained the machine shop items. It is very cool.
 
-![alt text](https://github.com/aidankv2/ECE-445-Notebooks/blob/main/Images-and-videos/diagrams-and-etc/unwrapped.jpg "tubepic1")
+![alt text](https://github.com/aidankv2/ECE-445-Notebooks/blob/main/Images-and-videos/diagrams-and-etc/tubepic1.jpg "tubepic1")
 
 As well as we finished soldering our board, also very cool
 
-![alt text](https://github.com/aidankv2/ECE-445-Notebooks/blob/main/Images-and-videos/diagrams-and-etc/unwrapped.jpg "FINALPCBsoldered")
+![alt text](https://github.com/aidankv2/ECE-445-Notebooks/blob/main/Images-and-videos/diagrams-and-etc/FINALPCBsoldered.jpg "FINALPCBsoldered")
 
 ## **12/1/2025 MONDAY and 12/2/2025 TEUSDAY**
 
 a LOT of work was done these two days. Mainly, we were setting up all the code and finally finsihing our project. Except, our main PCB stopped working, perhaps a fried main microcontroller. So, at first, we resorted to a very ugly bird's nest of wires that used the working microcontroller of a previous PCB and the power of our new one. 
 
 
-![alt text](https://github.com/aidankv2/ECE-445-Notebooks/blob/main/Images-and-videos/diagrams-and-etc/unwrapped.jpg "birdnest")
+![alt text](https://github.com/aidankv2/ECE-445-Notebooks/blob/main/Images-and-videos/diagrams-and-etc/birdnest.jpg "birdnest")
 
 While this was somewhat working, we finalized a lot of the code, before we got our true final project done working after using the LAST of our components to solder a new, perfect PCB board.
 Our final project turned out great, here is an example of the output of the tube
 
-![alt text](https://github.com/aidankv2/ECE-445-Notebooks/blob/main/Images-and-videos/diagrams-and-etc/unwrapped.jpg "FINALimage")
+![alt text](https://github.com/aidankv2/ECE-445-Notebooks/blob/main/Images-and-videos/diagrams-and-etc/FINALimage.jpg "FINALimage")
 
 ## **THE REST**
 
