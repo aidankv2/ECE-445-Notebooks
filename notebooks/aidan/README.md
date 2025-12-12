@@ -278,7 +278,8 @@ Today we have hookedx the motor up to the H-Bridge for control before our breadb
 
 Breadboard Demo 2, we setup a ruler and our first breadboard demo, as well as Nate made a spool thing to replace our movement system for now. The images are outputted and show portions of the ruler. 
 
-![alt text](https://github.com/aidankv2/ECE-445-Notebooks/blob/main/Images-and-videos/diagrams-and-etc/breadboarddemo2.jpg "breadboard demo 2")
+![alt text](https://github.com/aidankv2/ECE-445-Notebooks/blob/main/Images-and-videos/diagrams-and-etc/breadboarddemo2.JPG "breadboard demo 2")
+
 
 ## **10/29/2025 WEDNESDAY **
 
