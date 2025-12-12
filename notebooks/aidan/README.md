@@ -299,3 +299,53 @@ While i was doing this, Zach was pretty confident on learning Heat gun and solde
 On friday we finished a very rugged demo of the lighting system and glare diffuser, made by Nate, for a little bit of a breadboard demo 3 for rishik.
 
 ![alt text](https://github.com/aidankv2/ECE-445-Notebooks/blob/main/Images-and-videos/diagrams-and-etc/unwrapped.jpg "shuttle prototype")
+
+## **11/6/2025 THURSDAY **
+
+Finished the PCB soldering, was able to finally burn the bootloader and run some very simple code to make sure it was functioning, from the PWM pins, and other control pins hooked up
+
+![alt text](https://github.com/aidankv2/ECE-445-Notebooks/blob/main/Images-and-videos/diagrams-and-etc/unwrapped.jpg "PCBwithOsc")
+
+## **11/11/2025 TEUSDAY **
+
+Tried to solder a USB cord to an old camera of ours so that i did not screw up with the main camera for when we had to solder the USB cables together. It did not go well.
+
+![alt text](https://github.com/aidankv2/ECE-445-Notebooks/blob/main/Images-and-videos/diagrams-and-etc/unwrapped.jpg "usbfail")
+
+## **11/12/2025 WEDNESDAY **
+
+2 things done today:
+
+First, i soldered the main camera and our 20 foot long cable together. Does not connect fully, showed an image once, will probably need to resolder
+
+![alt text](https://github.com/aidankv2/ECE-445-Notebooks/blob/main/Images-and-videos/diagrams-and-etc/unwrapped.jpg "usbfail2")
+
+Second, i designed the FINAL version of the PCB. I made almost all of it through hole solder as to not mess up soldering anymore, and made all components larger.
+
+![alt text](https://github.com/aidankv2/ECE-445-Notebooks/blob/main/Images-and-videos/diagrams-and-etc/unwrapped.jpg "FINALPCB")
+
+## **11/19/2025 WEDNESDAY **
+
+Not much was done all last week since we were waiting mainly on machine shop. Finally, we obtained the machine shop items. It is very cool.
+
+![alt text](https://github.com/aidankv2/ECE-445-Notebooks/blob/main/Images-and-videos/diagrams-and-etc/unwrapped.jpg "tubepic1")
+
+As well as we finished soldering our board, also very cool
+
+![alt text](https://github.com/aidankv2/ECE-445-Notebooks/blob/main/Images-and-videos/diagrams-and-etc/unwrapped.jpg "FINALPCBsoldered")
+
+## **12/1/2025 MONDAY and 12/2/2025 TEUSDAY**
+
+a LOT of work was done these two days. Mainly, we were setting up all the code and finally finsihing our project. Except, our main PCB stopped working, perhaps a fried main microcontroller. So, at first, we resorted to a very ugly bird's nest of wires that used the working microcontroller of a previous PCB and the power of our new one. 
+
+
+![alt text](https://github.com/aidankv2/ECE-445-Notebooks/blob/main/Images-and-videos/diagrams-and-etc/unwrapped.jpg "birdnest")
+
+While this was somewhat working, we finalized a lot of the code, before we got our true final project done working after using the LAST of our components to solder a new, perfect PCB board.
+Our final project turned out great, here is an example of the output of the tube
+
+![alt text](https://github.com/aidankv2/ECE-445-Notebooks/blob/main/Images-and-videos/diagrams-and-etc/unwrapped.jpg "FINALimage")
+
+## **THE REST**
+
+Typing this after, we went on to do our presentation and demos, everything went great, hopefully i get a job. Thanks!
